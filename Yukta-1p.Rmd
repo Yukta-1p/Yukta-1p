@@ -41,6 +41,9 @@ class(num3)
 is.integer(num2)
 is.integer(num3)
 
+install.packages("tidyverse")
+library(tidyverse)
+read_csv(iris_dataset.csv)
 ```
 
 ## R Markdown
